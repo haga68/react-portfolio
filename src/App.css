@@ -84,7 +84,8 @@ img {
   object-fit: cover;
   margin-bottom: 12px;
   margin-top: 12px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
 }
 
 #skill button {
