@@ -10,15 +10,12 @@ const Header = () => {
 
         <nav>
             <ul>
-                <li>
+                {/* <li>
                     <Link to="/">ホーム</Link>                                      
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                     <Link to="/blog">ブログ</Link>         
-                </li>
-                <li>
-                    <a href = "#">SNS</a>                  
-                </li>
+                </li> */}
             </ul>
         </nav>
     </header>

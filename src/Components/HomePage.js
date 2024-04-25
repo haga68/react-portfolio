@@ -14,15 +14,15 @@ const HomePage = () => {
   return (
     <div>
       <div className="container text-center">
-      <h1>D.H</h1>
+      <h1>D.Haga  Portfolio</h1>
 
       <img src={profileImage} className="profileImage" />
 
       <p>
+      ご覧いただき、誠にありがとうございます。
       中国広東省深センにて、語学スクール経営のかたわら、趣味でウェブアプリやゲームを個人開発してます。
-      50歳を過ぎてから、プログラミングの世界に入るという、無謀な試み？を実践中です。
+      以下、自分が作ったものの一部を、リンクとして掲載致しました。  
       </p>
-
       <section class="page-section" id="services">
         <div className="service">
           <div class="text-center">
