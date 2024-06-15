@@ -19,10 +19,10 @@ const HomePage = () => {
       <img src={profileImage} className="profileImage" />
 
       <p>
-      ご覧いただき、誠にありがとうございます。
-      中国広東省深センにて、語学スクール経営のかたわら、趣味でウェブアプリやゲームを個人開発してます。
-      以下、自分が作ったものの一部を、リンクとして掲載致しました。  
-      </p>
+      ご覧いただき、誠にありがとうございます。中国深センにて、語学スクール経営のかたわら、趣味でウェブアプリやゲームを個人開発してます。
+      以下、自分が作ったものの一部です。</p>
+      <p>Thank you for viewing my blog.I run a language school in Shenzhen, China, and develop web apps and games as a hobby.
+      Below are some of the things I have created.</p>
       <section class="page-section" id="services">
         <div className="service">
           <div class="text-center">
@@ -39,7 +39,7 @@ const HomePage = () => {
               </span>
               <h4 class="my-3">ウェブアプリ開発</h4>
               <p class="text-muted">
-              Python（Django）、Reactなどを使用して、ウェブアプリを開発。
+              フロントエンドは、React,NextJS、バックエンドは、NordJS, Python（Django）などを使用してウェブアプリを開発。
               </p>
             </div>
             <div class="col-md-4">
@@ -49,7 +49,7 @@ const HomePage = () => {
               </span>
               <h4 class="my-3">ウェブ制作</h4>
               <p class="text-muted">
-              HTML, CSS, WordPresssなどを使用して、ホームページ、ブログサイトなどを制作。
+              HTML, CSS, JavaScript, WordPresssなどを使用して、ホームページ、ブログサイトなどを制作。
               </p>
             </div>
             <div class="col-md-4">
@@ -74,24 +74,24 @@ const HomePage = () => {
             使用言語は、以下の通りです。</p>          
           <div class="row text-center">
             <div class="col-md-4 services">
-              <img src={python} />
-              <h4>Python</h4>
-              <p>主にDjangoフレームワークを使用して、ブログ、ECサイトなど簡単なウェブアプリ開発。
-              </p>
-            </div>
-            <div class="col-md-4 services">
               <img src={jsImage} />
               <h4>JavaScript</h4>
-              <p>React,NextJS,ThreeJSなどライブラリを使用して、デスクトップアプリやウェブアプリを開発。</p>
-              <a href="https://calculator-sigma-three-78.vercel.app/">計算機</a>
-              <p>以下のブラウザゲーム（15パズル）は、画像を好きなものと交換することができます。</p>
-              <a href="https://15puzzle-six.vercel.app/">15パズル</a>
+              <p>ブラウザゲーム</p> <a href="https://15puzzle-six.vercel.app/">15パズル</a>
+              <p>アプリ（LightBoxを使用）</p> <a href="https://image-gallery-topaz-six.vercel.app/">Cat Gallery</a>
             </div>
             <div class="col-md-4 services">
               <img src={reactImage} />
               <h4>React</h4>
-              <p>以下、ReactとAPIを利用して作った簡単な画像検索アプリです（英語で検索）</p>
+              <p>ポケモン図鑑</p>
+              <a href="https://react-pokemon-app-sigma.vercel.app/">Pokemon Gallery</a>
+              <p>画像検索アプリ</p>
               <a href="https://react-image-search-app-beta.vercel.app/">Image Search App</a>
+            </div>
+            <div class="col-md-4 services">
+              <img src={python} />
+              <h4>Python</h4>
+              <p>主にDjangoフレームワークを使用して、ブログ、ECサイトなど簡単なウェブアプリ開発。
+              </p>
             </div>
             <div class="col-md-4 services">
               <img src={htmlImage} />
